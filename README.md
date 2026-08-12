@@ -37,7 +37,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: grade-submission-api
-  namespace: argocd
+  namespace: argocd 
 spec:
   project: default
   source:
