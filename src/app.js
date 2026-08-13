@@ -6,7 +6,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 
-let grades = [];
+let grades = ["2023-06-01: Math - 95", "2023-06-02: Science - 88", "2023-06-03: History - 92"];
 
 app.get('/grades', (req, res) => {
   console.log('Received GET request for grades');

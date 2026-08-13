@@ -41,7 +41,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/YOUR_USERNAME/grade-api-gitops.git
+    repoURL: https://github.com/andresherediaa/grade-api-gitops.git
     targetRevision: HEAD
     path: .
   destination:
